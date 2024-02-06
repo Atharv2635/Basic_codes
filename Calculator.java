@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +11,6 @@ public class Calculator {
 
         System.out.println("Enter operation (+, -, *, /):");
         char operation = scanner.next().charAt(0);
-
         double result = 0;
 
         switch (operation) {
